@@ -5,6 +5,7 @@
   "homepage": "http://joaquinastudillom.github.io/burger-builder",
   "dependencies": {
     "autoprefixer": "7.1.6",
+    "axios": "^0.21.1",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
@@ -39,6 +40,7 @@
     "react": "^16.11.0",
     "react-dev-utils": "^5.0.1",
     "react-dom": "^16.11.0",
+    "react-router-dom": "^5.2.0",
     "resolve": "1.6.0",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
@@ -52,8 +54,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
